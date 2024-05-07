@@ -1,0 +1,709 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "outfit";
+    src: url(../static/Outfit-Medium.ttf);
+}
+body{
+    background-color: black !important;
+    font-family: 'Outfit', sans-serif !important;
+}
+#Hero-sec{
+    padding: 110px 0;
+    overflow: hidden;
+}
+.Hero-text span{
+font-size: 7rem;
+}
+nav{
+    position: sticky !important;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+#navbar-manUL {
+    background-color: rgba(255,255,255,0.15);
+    padding: 10px;
+    border-radius: 30px;
+    position: relative !important;
+}
+.navbar-brand{
+    font-size: 30px !important;
+    font-weight: 500 !important;
+}
+#navbar-manUL li{
+    margin-left: 6px;
+}
+#navbar-manUL li a{
+   padding: 8px 18px;
+   border-radius: 30px;
+   background: rgba(0,0,0,0.1);
+   font-size: 0.9rem;
+   letter-spacing: 1px;
+}
+#navbar-ul-2{
+    visibility: hidden;
+    opacity: 0;
+    position: absolute !important;
+    top: 59px;
+    right: 0;
+    background: rgba(24,26,28,0.9);
+    width: 230px;
+    box-shadow: 0 8px 36px 0 rgba(0,0,0,0.3);
+    border-radius: 0.5em;
+    margin-top: 6px;
+    padding: 30px 0;
+    transition: linear 0.1s;
+}
+#navbar-ul-2 li{
+list-style: none; 
+padding: 5px 8px !important;
+}
+#navbar-ul-2 li a{
+ background-color: transparent !important;
+}
+.digen-text{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+.hero-button-d{
+    overflow: hidden;
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(5px);
+    border-radius: 40px;
+    padding: 16px 36px;
+}
+#logos{
+   padding-bottom: 110px;
+}
+.logo-slider , .item {
+    margin: 0px 25px;
+}
+
+#future-option{
+    padding-bottom: 110px;
+}
+.future-op-hed h1{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    font-size: 55px;
+}
+.future-op-hed{
+    background: #181a1c;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+.future-op-hed h1{
+font-size:63px;
+padding-top: 5px;
+}
+.future-data i{
+    line-height: 2;
+}
+.future-data p{
+    color: #ccccccff !important;
+}
+.border-future-box{
+    z-index: 1;
+    background: #181a1c;
+    overflow: hidden;
+    border-radius: 1em;
+    padding: 36px;
+}
+.future-mancard{
+    border-radius:1rem !important;
+}
+#Portfolio{
+    padding: 110px 0px;
+    overflow: hidden;
+}
+.Portfolio-title h2{
+line-height: 1.2;
+font-size: 4rem;
+}
+.owl-carousel-portfolio .item{
+    overflow: hidden;
+    border-radius: 1rem;
+}
+.owl-carousel-portfolio,.item img{
+    border-radius: 1rem;
+    background-size: cover;
+    overflow: hidden;
+}
+.portfolio-card-text ul{
+  right: -30px;
+  margin-top: 20px;
+}
+.portfolio-card-text h2{
+ right: -30px;
+}
+.owl-carousel-portfolio button{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(5px);
+    width: 50px;
+    height: 50px;
+    border-radius: 100% !important;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    transition: linear 0.06s;
+}
+.owl-carousel-portfolio, .owl-theme .owl-nav{
+    margin-bottom: 20px !important;
+}
+.owl-carousel-portfolio button span{
+    border-radius: 100%;
+    color: white !important;
+    font-size: 31px !important;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 2;
+}
+.owl-carousel-portfolio .owl-theme .owl-dots, .owl-theme .owl-nav{
+    display: inline-block;
+    position: relative;
+  
+}
+.portfolio-card-text ul li{
+    list-style: none;
+    position: relative;
+    padding: 0 4px 0 14px;
+}
+.portfolio-card-text ul li a{
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 0.9em;
+    display: inline-block;
+    text-decoration: none;
+}
+.hover-line {
+    display: inline-block;
+    text-decoration: none;
+  }
+  .bg-container-colore{
+    background: #181a1c;
+    border-radius: 1rem;
+    padding: 0 40px;
+    overflow: hidden;
+  }
+.plan-icon-card{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    line-height: 50px;
+    margin-right: 10px;
+}
+.plan-card-bgc{
+    background-color: transparent !important;
+    overflow: hidden !important;
+}
+.plan-card-mantext li{
+list-style: none;
+}
+.plan-card-mantext li a i{
+    padding: 0 10px;
+}
+.plan-rs h1{
+    font-size: 3.8rem;
+    font-weight: 400;
+    padding-right: 10px;
+    margin-bottom: 0 !important;
+}
+.plan-rs span{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.plan-card-button a{
+    font-size: 0.9rem;
+    font-weight: 400;
+    z-index: 1;
+    position: relative;
+}
+.plan-card-button{
+    padding: 10px 25px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.plan-icon-h h6{
+    font-size: 0.9rem;
+    letter-spacing: 1px !important;
+}
+.plan-card-mantext li a{
+    font-size: 17px;
+    font-weight: 400;
+}
+.plan-card-mantext li a i{
+    font-size: 11px;
+}
+.plan-card-mantext li{
+    margin-bottom: 6px;
+}
+.plan-card-bgc{
+    background: #181a1c !important;
+    border-radius: 20px !important; 
+}
+.a-r-photo img{
+background-size: cover !important;
+max-width: 100% !important;
+border-radius: 0 3rem 0 3rem;
+}
+#About{
+    padding-top: 110px;
+}
+.about-photo-text p{
+font-size: 15px;
+}
+.about-photo-text{
+    padding: 20px 8px 0 0;
+}
+.a-r-photo{
+    flex-direction:column-reverse;
+
+}    
+.flex-dcn{
+    flex-direction:row-reverse;
+}
+.about-photo-text-2{
+    padding: 20px 0 0 8px;
+}
+.about-photo-text-2 p{
+    font-size: 15px;
+}
+.a-l-text h6{
+ letter-spacing: 1px;
+ font-size: 0.9rem;
+}
+.animat-pogram div{
+    position: absolute;
+    display: block;
+    background-image: linear-gradient(45deg, #2fbdff 0%, #ff7582 100%);
+    width: 50%;
+    height: 100%;
+    border-radius: 3px;
+    color: white;
+    transition: width 0.7s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition-delay: .1s;
+}
+.animat-pogram{
+    background: rgba(255,255,255,0.2);
+    height: 3px;
+    margin-top: 4px;
+    border-radius: 3PX;
+}
+.about-left p{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 20px !important;
+}
+.padding-in-c{
+    padding: 80px 0;
+}
+#team-members{
+    padding: 110px 0;
+}
+.team-h-icon ul li{
+list-style: none;
+}
+.circle-style{
+    background: rgba(0,0,0,0.1);
+}
+.circle-style-sm{
+width: 44px;
+height: 44px;
+line-height: 44px;
+}
+.button-circle{
+    overflow: hidden;
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(5px);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    transition: linear 0.06s;
+}
+.team-h-icon{
+    z-index: 1;
+    bottom: 30px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    transition: linear 0.1s;
+    visibility: hidden;
+}
+.team-h-icon ul li a{
+font-size: 18px;
+font-weight: 400;
+}
+.team-h-icon ul li{
+    margin: 0 10px 0 0;
+}
+.team-img-hover{
+    border-radius: 15px !important;
+}
+.team-img-hover img{
+transform: scale(1);
+width: 100%;
+transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+border-radius: 15px;
+}
+.team-img-hover{
+    overflow: hidden;
+}
+.team-img-countent{
+    color: white !important;
+}
+.team-img-countent h6{
+ font-size: 18px;
+ margin-top: 20px;
+ font-weight: 400;
+}
+.team-img-countent h2{
+    font-size: 25px;
+    font-weight: 500;
+}
+.btn-team-s a{
+    padding: 15px 25px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.tcs-slider-content p{
+    font-style: italic !important; 
+    color: #ccccccff !important;
+}
+.tcs-slider-content h2{
+    font-size: 28px;
+}
+.tcs-slider-content-befor{
+    padding-left: 160px;
+}
+.owl-theme .owl-nav.disabled+.owl-dots{
+       display: flex !important;
+        justify-content: end !important;
+}
+#footer{
+    padding-top: 110px;
+}
+#footer .card{
+    background-color: transparent !important;
+}
+.footer-card-countent p{
+ color:#ccccccff;
+ font-size: 15px;
+}
+.email-footer{
+    font-size: 28px;
+}
+.footer-card-countent h5 a{
+    color: #ccccccff !important;
+}
+.footer-card-countent h6 a{
+    color: #ccccccff !important;
+}
+.footer-bg-countainer{
+    padding: 75px 40px !important;
+}
+.footer-copy-right-countent{
+    color:#ccccccff !important;
+    font-size: 17px;
+}
+.footer-copy-right-countent2 ul li{
+    list-style: none;
+    margin-left: 5px;
+}
+.footer-copy-right-countent2 ul li a{
+    font-size: 17px;
+    font-weight: 400;
+}
+.footer-copy-right-countent2 ul li{
+    padding: 0 4px 0 14px !important;
+}
+#body-scrol-button{
+    right: 24px;
+    bottom: 24px;
+    transform: translateY(20px);
+    z-index: 991;
+    visibility: hidden;
+    transition: ease-out 0.12s;
+}
+.show{
+    transform: translateY(0);
+    visibility: visible !important;
+}
+#body-scrol-button a{
+    overflow: hidden;
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(5px);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    transition: linear 0.06s;
+}
+@media (max-width: 360px) { 
+    #Hero-sec{
+        padding: 50px 0 !important;
+    }
+    #logos{
+        padding-bottom: 50px !important;
+    }
+    #future-option{
+        padding-bottom: 50px !important;
+    }
+    .no-js .owl-carousel, .owl-carousel.owl-loaded{
+        margin-left: 0 !important;
+    }
+    #Portfolio{
+        padding: 50px 0 !important;
+    }
+    .future-mancard{
+        width: 90% !important;
+        margin: auto !important;
+    }
+    .Portfolio-title h2{
+        font-size: 2rem !important;
+    }
+    .plan-card-bgc{
+        width: 90% !important;
+        margin-bottom:20px !important;
+    }
+    .plan-rs h1{
+        font-size: 2.8rem !important;
+        padding: 0;
+    }
+    .about-right{
+        width: 90% !important;
+        padding-bottom: 50px !important;
+    }
+    #About{
+        padding-top: 50px !important;
+    }
+    .about-left{
+        width: 90% !important;
+    }
+    .a-l-text h2{
+        font-size: 1.6rem !important;
+    }
+    .res-width{
+        width: 100% !important;
+        margin-top: 20px !important;
+    }
+    .team-member-res-width{
+        width: 90% !important;
+        margin: auto;
+    }
+    .felx-d-res{
+        flex-direction: column !important;
+    }
+    .team-img-countent{
+        margin-bottom: 20px !important;
+    }
+    .team-img-countent h6{
+        font-size: 16px !important;
+    }
+    .team-img-countent h2{
+        font-size: 22px !important;
+    }
+    .tcs-slider-content-befor{
+        padding: 0 !important;
+    }
+    .footer-card-countent p{
+        font-size: 17px !important;
+    }
+    .footer-card-countent h5{
+        font-size: 19px !important;
+    }
+    .margin-respo-footer{
+        margin: 20px 0 !important;
+    }
+    .email-footer{
+        font-size:  22px !important;
+    }
+    .footer-copy-right-countent{
+        width: 100% !important;
+    }
+    .footer-copy-right-countent2{
+        width: 100% !important;
+    }
+}
+@media (max-width: 576px) { 
+    .Hero-text span{
+        font-size: 4rem;
+    }
+    #logos{
+        padding-bottom: 75px !important;
+    }
+    .future-op-hed h1{
+        font-size: 50px !important;
+    }
+    #future-option{
+        padding-bottom: 30px !important;
+    }
+    #Portfolio{
+        padding: 30px 0 !important;
+    }
+    .Portfolio-title h2{
+        font-size: 3rem;
+    }
+    .plan-card-bgc{
+        width: 100% !important;
+        margin-bottom: 30px !important;
+    }
+    .plan-rs h1{
+        font-size: 3rem !important;
+        padding: 0;
+    }
+    #About{
+        padding-top: 30px;
+    }
+    .a-l-text h2{
+        font-size: 25px !important;
+    }
+    .about-left p{
+        font-size: 0.9rem !important;
+    }
+    #team-members{
+        padding: 60px 0;
+    }
+    .Portfolio-title h2{
+        font-size: 2.5rem !important;
+    }
+    .team-img-countent h6{
+        font-size: 15px !important;
+    }
+    .tcs-slider-content-befor{
+        padding:0 !important ;
+    }
+    .footer-respon-c{
+        max-width: 100% !important;
+    }
+    .footer-card-countent h5{
+        font-size: 18px;
+    }
+    .footer-card-countent{
+        margin: 10px 0;
+    }
+    .footer-copy-right-countent p{
+        text-align: center;
+        margin: 0 !important;
+    }
+    .footer-copy-right-countent2 ul{
+        justify-content: center !important;
+        margin: 10px 0 !important;
+    }
+ }
+
+@media (max-width: 768px) { 
+    .Hero-text span{
+        font-size: 5rem;
+    }
+    #logos{
+        padding-bottom: 25px;
+    }
+    .future-op-hed h1{
+        font-size: 55px !important;
+    }
+    #future-option{
+        padding-bottom: 25px !important;
+    }
+    #Portfolio{
+        padding: 25px 0 !important;
+    }
+    .owl-carousel-portfolio .owl-theme .owl-dots, .owl-theme .owl-nav{
+        right: 14rem !important;
+    }
+    .Portfolio-title h2{
+        font-size: 3rem !important;
+
+    }
+    .Portfolio-title{
+        padding: 0 55px !important;
+    }
+    #About{
+        padding-top: 50px !important;
+    }
+    #team-members{
+        padding: 70px 0 !important;
+    }
+    .tcs-slider-content p{
+        font-size: 20px !important;
+    }
+    .tcs-slider-content-befor{
+        padding-left: 140px !important;
+    }
+    .footer-respon-c{
+        max-width: 39rem !important;
+    }
+    .footer-card-countent h5{
+        font-size: 18px !important;
+    }
+    .footer-card-countent h6{
+        font-size: 14px !important;
+
+    }
+    .email-footer{
+        font-size: 24px !important;
+    }
+ }
+
+@media (max-width: 992px) { 
+    .Hero-text span{
+        font-size: 6rem;
+    }
+    .logo-slider, .item{
+        margin: 0 11px !important;
+    }
+    #logos{
+        padding-bottom: 35px !important;
+    }
+    .border-future-box{
+        padding: 25px !important;
+    }
+    .future-op-hed h1{
+        font-size: 50px !important;
+    }
+    .gup-responsiv{
+    column-gap: 10px;
+    flex-wrap: nowrap !important;
+    }
+    #future-option{
+        padding-bottom: 30px !important;
+    }
+    #Portfolio{
+        padding: 30px 0 !important;
+    }
+    .Portfolio-title h2{
+        font-size: 3.5rem !important;
+    }
+    .owl-carousel-portfolio .owl-theme .owl-dots, .owl-theme .owl-nav button{
+        right: 14rem;
+    }
+    #About{
+        padding-top: 75px;
+    }
+     .about-photo-text-2 {
+        padding: 13px 0 0 8px;
+    }
+    #footer{
+        padding-top:70px !important ;
+    }
+ }
+
+@media (max-width: 1200px) { 
+
+ }

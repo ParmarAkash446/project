@@ -1,0 +1,295 @@
+.hero-button-d::after{
+content: "";
+z-index: 1;
+position: absolute;
+top: 0;
+left: 0;
+opacity: 0.15;
+background-image:linear-gradient(45deg, #2fbdff 0%, #ff7582 100%) ;
+width: 100%;
+height: 100%;
+transition: linear 0.1s;
+}
+.hero-button-d:hover{
+    background:rgba(255,255,255,0.15) !important;
+}
+.border-future-box::after{
+content: "";
+z-index: 1;
+position: absolute;
+bottom: 0;
+right: 0;
+left: 0;
+opacity: 0.6;
+background-image: linear-gradient(45deg, #2fbdff 0%, #ff7582 100%) !important;
+width: auto;
+height: 1px;
+transition: linear 0.1s;
+}
+.border-future-box::before{
+    z-index: -1;
+    content: '';
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(45deg, #2fbdff 0%, #ff7582 100%);
+    width: 100%;
+    height: 100%;
+    -webkit-transition: linear 0.1s;
+    transition: linear 0.1s;
+}
+.Portfolio-title h6::before{
+    content: "//";
+    padding-right: 6px;
+}
+.owl-carousel-portfolio .item:hover img{
+ overflow: hidden !important;
+ transition:ease-out 0.16s !important;
+ transform:scale(1.06);
+}
+.owl-carousel-portfolio button::after{
+    content:"";
+    content: '';
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.15;
+    background-image: linear-gradient(45deg, #2fbdff 0%, #ff7582 100%);
+    width: 100%;
+    height: 100%;
+    -webkit-transition: linear 0.06s;
+    transition: linear 0.06s;
+    
+}
+.portfolio-card-text-dot::before{
+content: '';
+position: absolute;
+top: 50%;
+left: 0;
+transform: translateY(-50%);
+background: rgba(255,255,255,0.8);
+width: 5px;
+height: 5px;
+border-radius: 50%;
+}
+.hover-line::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 8px;
+    background-image: linear-gradient(45deg, #2fbdff 0%, #ff7582 100%);
+    transform: scale(0, 1);
+    transform-origin: right top;
+    transition: transform .3s;
+    opacity: 0.4;
+  }
+  h2:hover .hover-line::after {
+    transform-origin: left top !important;
+    transform: scale(1, 1) !important;
+    opacity: 0.4;
+  }
+  .portfolio-card-text ul li a::after{
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    transform: scale(0, 1);
+    transform-origin: right top;
+    transition: transform .3s;
+  }
+  .portfolio-card-text ul li:hover a::after{
+    transform-origin: left top !important;
+    transform: scale(1, 1) !important;
+  }
+.plan-icon-card::after{
+  content: '';
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.2;
+  background-image: linear-gradient(45deg, #2fbdff 0%, #ff7582 100%);
+  border-radius: 50%;
+}
+ .button-card-plan::after{
+  content: "";
+z-index: 0;
+position: absolute;
+top: 0;
+left: 0;
+opacity: 0.25;
+background-image:linear-gradient(45deg, #2fbdff 0%, #ff7582 100%) ;
+width: 100%;
+height: 100%;
+transition: linear 0.1s;
+border-radius: 40px;
+ } 
+ .plan-card-bgc::before{
+  z-index: -1;
+  content: '';
+  visibility: hidden;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(45deg, #2fbdff 0%, #ff7582 100%);
+  width: 100%;
+  height: 100%;
+  -webkit-transition: linear 0.1s;
+  transition: linear 0.1s;
+ }
+ .plan-card-bgc::after{
+  content: "";
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 0.6;
+  background-image: linear-gradient(45deg, #2fbdff 0%, #ff7582 100%) !important;
+  width: auto;
+  height: 1px;
+  transition: linear 0.1s;
+  }
+  .a-l-text h6::before{
+    content: "//";
+    padding-right: 6px;
+  }
+  .animat-pogram div::before{
+    content: attr(data-progress) "%";
+    position: absolute;
+    top: -26px;
+    right: 0;
+  }
+  .team-h-icon ul li:hover a{
+  background: rgba(0,0,0,0.15);
+   transition: 0.2s ease-in-out;
+   visibility: visible;
+
+  }
+.team-img-hover:hover .team-h-icon{
+  visibility: visible !important;
+  transition:0.18s ease-out !important;
+}
+.team-img-hover:hover img{
+  transform: scale(1.06);
+}
+.team-img-hover::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  border-radius: 15px;
+  background-image: linear-gradient(to top, rgba(0,0,0,0.3), transparent);
+  width: 100%;
+  height: 100%;
+  transition: ease-out 0.16s !important;
+}
+.team-img-hover:hover::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  background-image: linear-gradient(to top, rgba(0,0,0,0.3), transparent);
+  width: 100%;
+  height: 100%;
+  transition: ease-out 0.16s !important;
+}
+.btn-team-s a::after{
+  content:"";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.25;
+  background-image: linear-gradient(45deg, #2fbdff 0%, #ff7582 100%) !important;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: linear 0.06s;
+  transition: linear 0.06s;
+}
+.tcs-slider-content-befor::before{
+  content: '\f10e';
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Font Awesome 6 Free";
+  font-size: 7rem;
+  font-weight: 900;
+  line-height: 1;
+}
+ul .bfr-dot-footer::before{
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background: rgba(255,255,255,0.8);
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+.footer-copy-right-countent2 ul li:first-child{
+  padding-left: 0 !important;
+}
+.navbar-nav li:first-child{
+  margin-left: 0;
+}
+#navbar-manUL li:first-child{
+margin-left: 0;
+}
+#navbar-manUL li a:hover{
+  padding: 8px 18px;
+  background-color: black !important;
+  border-radius: 40px;
+  transition: ease-in-out 0.5s;
+  cursor: pointer;
+}
+#navbar-ul-2 li a:hover{
+  background-color:  transparent !important;
+}
+#navbar-ul-2::before{
+  content: '';
+  position: absolute;
+  top: -22px;
+  right: 0;
+  display: block;
+  width: 100%;
+  height: 22px;
+}
+#navbar-manUL li:hover #navbar-ul-2{
+  visibility: visible !important;
+    opacity: 1 !important;
+    margin-top: 0;
+}
+#navbar-ul-2 li a:hover{
+  font-size: 16px;
+  transition: ease-in-out 0.55s;
+}
+#body-scrol-button a::after{
+  content: '';
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.15;
+    background-image: linear-gradient(45deg, #2fbdff 0%, #ff7582 100%);
+    width: 100%;
+    height: 100%;
+    -webkit-transition: linear 0.06s;
+    transition: linear 0.06s;
+}
+
